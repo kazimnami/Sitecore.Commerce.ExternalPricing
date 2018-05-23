@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature.Pricing.Engine", "src\Feature\Pricing\Engine\Feature.Pricing.Engine.csproj", "{E2C3B55F-C5EA-4B39-B323-A1DC5FAD12DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{F89FF17F-5268-4F3E-97DA-E224974F4226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{872AD8A1-5DB8-4900-9733-5E0D1AD9C83B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{452B6465-0AD7-45C5-8144-6643F21B85E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{2313DFE5-5149-4843-B89F-979B14725E66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pricing", "Pricing", "{07DFE14C-3593-4451-A7BD-052255AC546D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2C3B55F-C5EA-4B39-B323-A1DC5FAD12DD} = {07DFE14C-3593-4451-A7BD-052255AC546D}
+		{07DFE14C-3593-4451-A7BD-052255AC546D} = {872AD8A1-5DB8-4900-9733-5E0D1AD9C83B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C18592B4-0F80-4C8E-95B6-1BD5601F6442}
